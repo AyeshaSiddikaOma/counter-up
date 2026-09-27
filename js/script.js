@@ -1,8 +1,10 @@
-let head = document.querySelector('#oma')
+// let head = document.querySelector('#oma')
 
 let index = 0;
 const count = setInterval( () =>{
-head.innerHTML = `  ${index}  `
+// head.innerHTML = `  ${index}  `
 index++
+process.stdout.write(`\r${index}`)
+
 
 })
