@@ -9,4 +9,4 @@ if (index == 500) {
     clearInterval(count)
 }
 
-})
+},100)
